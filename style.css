@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.counter-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: aqua;
+    color:white;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    border:none;
+}
+
+#numberDisplay {
+    font-size: 24px;
+    margin: 0 20px;
+    width: 50px;
+    text-align: center;
+}
+
+.progress-container {
+    width: 100%;
+    background-color:rgb(198, 196, 194);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#progressBar {
+    width: 0;
+    height: 20px;
+    background-color: #4caf50;
+    transition: width 0.3s ease-in-out;
+}
+
+.undo-redo-container {
+    margin-top: 20px;
+}
+
+.undo-redo-container button {
+    font-size: 18px;
+    padding: 8px 16px;
+    margin: 0 10px;
+}
